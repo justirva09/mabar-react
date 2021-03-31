@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    width: 70%;
+    padding: 14px;
+}
+
+.main-sidebar {
+    width: 30%;
+    padding: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+  width:33.33333%;
+  padding: 14px;
+}
+
+.card__inner {
+  box-shadow: 0px 2px 15px 0.5px rgba(0,0,0,0.1);
+}
+
+.card__body {
+  text-align: center;
+  padding: 8px;
+}
