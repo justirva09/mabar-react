@@ -1,16 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-
-const Images = (props) => {
-  if(props.isBackground) {
-    return <div className="images--background"  style={{background: `url(${props.image})`}} />
-  }
-  
-  return <img width="100%" src={props.image} />  
-}
-
-
+import { Images } from 'components/atoms';
 
 const Card = ({data}) => {
   return(

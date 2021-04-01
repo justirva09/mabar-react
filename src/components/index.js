@@ -1,13 +1,6 @@
-import Button from './Button';
-import Card from './Card';
-import Header from './Header';
-import MainContent from './MainContent';
-import BlogFunctional from './BlogFunctional';
-
-export {
-  Header,
-  MainContent,
-  Button,
-  Card,
-  BlogFunctional
-}
+export * from './atoms';
+export * from './molecules';
+export * from './organisms';
+export * from './templates';
+// chakra-ui component
+export * from '@chakra-ui/react';

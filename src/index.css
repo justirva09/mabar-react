@@ -20,14 +20,14 @@ code {
 }
 
 .main-content {
-    width: 70%;
+    width: 100%;
     padding: 14px;
 }
-
+/* 
 .main-sidebar {
     width: 30%;
     padding: 14px;
-}
+} */
 
 * {
     box-sizing: border-box;

@@ -1,15 +1,14 @@
-import React, {Component, useState} from 'react';
-import { Card } from '../../components';
+import React, {useState} from 'react';
 
 const BlogFunctional = () => {
   const [cart, setCart] = React.useState(0);
   const [color, setColor] = React.useState(false);
-  const [data, setData] = useState([]);
+  const [setData] = useState([]);
   const [input, setInput] = useState("Age ganteng");
 
   React.useEffect(() => {
     getData()
-  }, [])
+  })
 
   const handlePlus = () => {
     setCart(cart + 1)

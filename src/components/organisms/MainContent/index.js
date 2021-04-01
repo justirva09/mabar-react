@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Header from '../Header';
+import { Header } from '../../../components';
 
 const MainContent = ({children}) => (
   <main>
@@ -8,9 +8,6 @@ const MainContent = ({children}) => (
     <div className="wrapper">
       <div className="main-content">
         {children}
-      </div>
-      <div className="main-sidebar">
-        <h1>Sidebar</h1>
       </div>
     </div>
   </main>
